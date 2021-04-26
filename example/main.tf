@@ -5,7 +5,7 @@ provider "equinix" {
 
 module "cloudgenix" {
   source               = "equinix/cloudgenix-sdwan/equinix"
-  version              = "1.0.0-beta"
+  version              = "1.0.0"
   name                 = "tf-cloudgenix"
   metro_code           = var.metro_code_primary
   platform             = "medium"
